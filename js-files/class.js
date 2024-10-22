@@ -1,9 +1,24 @@
 class Car {
     constructor(name) {
-    this.brand = name;
+        this.brand = name;
     }
-}
 
-const mycar = new Car("Ford");
+    present() {
+        return 'I have a ' + this.brand;
+    }
+    }
 
-console.log(mycar)
+    class Model extends Car {
+    constructor(name, mod) {
+        super(name);
+        this.model = mod;
+    }  
+    show() {
+        return this.present() + ', it is a ' + this.model
+    }
+    }
+    const mycar = new Model("Ford", "Mustang");
+mycar.show();
+
+
+console.log(mycar.show())
