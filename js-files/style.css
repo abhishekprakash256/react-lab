@@ -1,0 +1,18 @@
+body, html {
+    text-align: center;
+    margin: 0;           /* Remove default margin */
+    padding: 0;          /* Remove default padding */
+            /* Ensure body and html take the full height */
+}
+
+#digit {
+    color: brown;
+}
+.background {
+    background-color: black;
+    height: 100%;  
+    display: flex;        /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;  
+
+  }
