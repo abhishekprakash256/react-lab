@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
 const first_name = 'John';
@@ -9,6 +12,8 @@ const job = 'Developer';
 const enter_data = "Enter your data";
 
 const test_arr = [1,2,3,];
+
+const title = "Ths is title"
 
 
 const test_obj = {
@@ -23,12 +28,12 @@ const get_full_name = ( first_name, last_name) => {
 
 const input_field = <input placeholder= { enter_data }></input>
 
-function test_container() {
+function title_header() {
   return (
-    <div>
-      <h2>Test Container</h2>
-      <p>This is a test container component.</p>
-      <p>Additional Content: {test_obj.first_name} {test_obj.last_name}</p>
+    <div className="row p-3">
+      <div className="col text-center background-color-body rounded">
+        <h1 className="bio-font font-color-class heading-responsive-font mb-2 mt-2">{title}</h1>
+      </div>
     </div>
   );
 }
@@ -46,9 +51,11 @@ return (
 
       <div>{ test_arr[1] }</div>  {/* Place test_arr[1] inside a paragraph tag */}
 
-       { test_container() }  
+      { title_header() }
 
     </div>
+
+
   );
 }
 
