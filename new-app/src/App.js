@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import nav_bar from './navbar';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -42,6 +44,10 @@ function title_header() {
 
 return (
     <div className="App">
+
+  
+
+ 
       <h1>{ "First Name " +  get_full_name(test_obj.first_name,last_name) }</h1>
 
 
@@ -52,11 +58,15 @@ return (
       <div>{ test_arr[1] }</div>  {/* Place test_arr[1] inside a paragraph tag */}
 
       { title_header() }
+      { nav_bar() }
 
     </div>
+    
 
 
   );
 }
+
+{ nav_bar() }
 
 export default App;
