@@ -3,6 +3,7 @@ import './App.css';
 import nav_bar from './navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button , Breadcrumb} from 'react-bootstrap'
 
 
 
@@ -45,8 +46,7 @@ function title_header() {
 return (
     <div className="App">
 
-  
-
+    
  
       <h1>{ "First Name " +  get_full_name(test_obj.first_name,last_name) }</h1>
 
@@ -55,7 +55,12 @@ return (
       <p>Job : { test_obj.work } </p>
       { input_field } 
 
+
+
       <div>{ test_arr[1] }</div>  {/* Place test_arr[1] inside a paragraph tag */}
+
+      <Button>This is test</Button>
+      <Breadcrumb>This is tets</Breadcrumb>
 
       { title_header() }
       { nav_bar() }
