@@ -1,29 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import './style.css'  ; // the custom import file 
-
-
-//import react
-
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TestNavBar from './TestNavBar'
 
-//import nav_bar from './navBar';
-import navbarScroll from './testNavBar';
+
+
  
 
-
-
-
 function App() {
+
+
   return (
     <div className="App">
 
-     
-      { navbarScroll() }
+      <TestNavBar/>
 
-  
-
-    
 
     </div>
   );
