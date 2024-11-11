@@ -15,7 +15,7 @@ import CardTemp from './Card';
 
 const title = "Tech";
 const more_link = "#";
-const card_para = "System design a multidisciplinary field that encompasses various aspects of designing the destributed systems..";
+const card_para = "System design a multidisciplinary field that encompasses various aspects of designing the destributed systems fdgd g dfg dg  d sdfsfdsfsd sfsfsfdsf ";
 const img_src = "cards.jpg"; // public folder has all the images can go 
 const card_url = "https://www.google.com";
 
