@@ -8,7 +8,7 @@ import './style.css'  ; // the custom import file
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import nav_bar from './navBar';
-import test_nav_bar from './testNavBar';
+import navbarScroll from './testNavBar';
  
 
 
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
 
      
-      { test_nav_bar() }
+      { navbarScroll() }
 
   
 
