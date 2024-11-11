@@ -17,9 +17,16 @@ function TestNavBar() {
 const [theme, setTheme] = useState('light');
 
 
-    useEffect(() => {
-      document.documentElement.setAttribute('data-theme', theme);
-    }, [theme]);
+useEffect(() => {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+  }, []);
+  
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+  
   
     const toggleTheme = () => {
       setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
