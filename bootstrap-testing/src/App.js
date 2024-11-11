@@ -3,9 +3,12 @@ import './App.css';
 import './style.css'  ; // the custom import file 
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TestNavBar from './TestNavBar'
+import NavBar from './NavBar'
+import HeadingBar from './HeadingBar';
+import More from './More';
 
-
+const title = "Tech"
+const more_link = "#"
 
  
 
@@ -15,7 +18,11 @@ function App() {
   return (
     <div className="App">
 
-      <TestNavBar/>
+      <NavBar/>
+      <HeadingBar title={title}/>
+      <More more_link={ more_link}/>
+
+
 
 
     </div>

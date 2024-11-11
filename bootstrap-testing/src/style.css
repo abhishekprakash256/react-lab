@@ -1,0 +1,49 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --nav-link-color: #000000;
+    --footer-background-color: #e9ecef;
+    --footer-text-color: #000000;
+    --navbar-brand-color: #146C94;
+    --form-background-color: #ffffff;
+    --button-text-color: #ffffff;
+    --nav-brand-hover-color: #19A7CE;
+    --button-text-hover-color: #fefefe;
+    --input-focus-background-color: #fefefe;
+    --input-focus-text-color: #fefefe;
+    --blue-text-color: #146C94;
+    --message-bubble-color-send: #e9ecef;
+    --message-bubble-color-recv:#19A7CE;
+    --message-text-color-send: #146C94;
+    --message-text-color-recv: #ffffff;
+    --md-code-color: #000000;
+    --form-input-color: #000000;
+    --blue-text-hover: #19A7CE;
+  
+  
+  } 
+  
+  [data-theme="dark"]  {
+    --background-color: #1e1e1e; /* #9b59b6 */
+    --text-color: #fefefe;
+    --nav-link-color: #ffffff;
+    --footer-background-color: #343a40;
+    --footer-text-color: #fefefe;
+    --navbar-brand-color: #19A7CE;
+    --form-background-color: #1e1e1e;
+    --button-text-color: #000000;
+    --nav-brand-hover-color: #19A7CE;
+    --button-text-hover-color: #000;
+    --input-focus-background-color: #1e1e1e;
+    --input-focus-text-color: #fefefe;
+    --blue-text-color: #19A7CE;
+    --message-bubble-color-send: #343a40;
+    --message-bubble-color-recv:#19A7CE;
+    --message-text-color-send: #19A7CE;
+    --message-text-color-recv: #000000;
+    --md-code-color: #fefefe;
+    --form-input-color: #fefefe;
+  
+  }
+
+  
