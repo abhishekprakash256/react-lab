@@ -1,14 +1,14 @@
-import Card from 'react-bootstrap/Card';
 import "./Card.css"
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 
 
 function CardTemp({ card_para , img_src , card_url, card_title } ) {
   return (
     <Container>
-    <Card style={{ width: '20rem' }}>
+
+      <Card>
       <Card.Img className = "card-img-container p-3" variant="top" src= { img_src } />
       <Card.Body>
       <div className='font-color-class text-center card-title'>
@@ -27,6 +27,7 @@ function CardTemp({ card_para , img_src , card_url, card_title } ) {
  
       </Card.Body>
     </Card>
+
     </Container>
   );
 }

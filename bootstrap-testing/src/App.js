@@ -8,7 +8,8 @@ import HeadingBar from './HeadingBar';
 import More from './More';
 import CardTemp from './Card';
 import CardBundle from './CardBundle'
-
+import GroupExample from './GroupExample';
+import TestGrid from "./TestGrid"
 
 
 
@@ -33,11 +34,17 @@ function App() {
       <NavBar/>
       <HeadingBar title={title}/>
       <More more_link={ more_link}/>
-      < CardTemp card_para = { card_para } img_src={ img_src }  card_url = { card_url } card_title={ card_title}/>
+      
+      
       <div>
         <h1></h1>
       </div>
-      <CardBundle></CardBundle>
+
+
+     <CardBundle></CardBundle>
+   
+
+      
 
 
 

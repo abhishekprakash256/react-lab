@@ -3,9 +3,6 @@
   }
 
 
-  .font-color-class {
-    color: var(--blue-text-color); /* Replace #0000ff with the color of your choice */
-  }
 
   
   .card-text {
@@ -14,6 +11,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Number of lines to show */
     -webkit-box-orient: vertical;
+    margin-top: -20px;
 }
 
 .card-img-container {
@@ -26,18 +24,16 @@
   }
   
 
-.desc-container {
-margin-top: -20px;
-}
 
 .card 
 {
     background-color: var(--background-color);  
+    max-width: 30rem; /* can be removed on need */
 }
 
 .card-title {
 
-    margin-top: -18px;
+
 
     color: var(--text-color) ;
 }
