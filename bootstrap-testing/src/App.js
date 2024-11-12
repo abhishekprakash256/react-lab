@@ -15,10 +15,11 @@ import CardTemp from './Card';
 
 const title = "Tech";
 const more_link = "#";
-const card_para = "System design a multidisciplinary field that encompasses various aspects of designing the destributed systems fdgd g dfg dg  d sdfsfdsfsd sfsfsfdsf ";
+const card_para = "System design a multidisciplinary field that encompasses various aspects of designing the destributed ";
 const img_src = "cards.jpg"; // public folder has all the images can go 
+const img_src1 = "federated-learning-flow.png"; 
 const card_url = "https://www.google.com";
-
+const card_title =  "System Design";
 
 
 
@@ -31,8 +32,8 @@ function App() {
       <NavBar/>
       <HeadingBar title={title}/>
       <More more_link={ more_link}/>
-      < CardTemp card_para = { card_para } img_src={ img_src }  card_url = { card_url }/>
-      < CardTemp card_para = { card_para } img_src={ img_src }  card_url = { card_url }/>
+      < CardTemp card_para = { card_para } img_src={ img_src }  card_url = { card_url } card_title={ card_title}/>
+      < CardTemp card_para = { card_para } img_src={ img_src1 }  card_url = { card_url } card_title={ card_title}/>
 
 
 
