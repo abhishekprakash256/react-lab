@@ -10,7 +10,7 @@ import CardTemp from './Card';
 import CardBundle from './CardBundle'
 import GroupExample from './GroupExample';
 import TestGrid from "./TestGrid"
-
+import CustomBody from "./CustomBody"
 
 
 
@@ -32,6 +32,8 @@ function App() {
     <div className="App">
 
       <NavBar/>
+
+    <CustomBody>
       <HeadingBar title={title}/>
       <More more_link={ more_link}/>
       
@@ -42,6 +44,10 @@ function App() {
 
 
      <CardBundle></CardBundle>
+     <More></More>
+
+
+     </CustomBody>
    
 
       
