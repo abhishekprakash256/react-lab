@@ -71,7 +71,7 @@ useEffect(() => {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2 custom-border form-control"
+              className="me-2 custom-border form-control custom-placeholder"
               aria-label="Search"
             />
             
