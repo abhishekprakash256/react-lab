@@ -99,3 +99,12 @@
   transform: translateX(24px);
 }
 
+.form-control{
+            
+  background-color : var(--form-background-color);
+}
+
+.form-control:focus {
+  background-color: var(--input-focus-background-color);
+  color: var(--input-focus-text-color);
+}  
