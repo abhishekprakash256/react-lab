@@ -15,13 +15,13 @@ function CardTemp({ card_para , img_src , card_url, card_title } ) {
       <Card.Title>{ card_title }</Card.Title>
       </div>
 
-        <Card.Text className="card-text font-color-class ">
-        <a  class="font-color-class text-decoration-none">
+        <Card.Text className="card-text font-color-class mt-3">
+   
             { card_para }
-        </a>
+ 
         </Card.Text>
 
-        <div className='text-center'>
+        <div className='text-center mt-4'>
         <Button className='button-custom-color' href={ card_url } >Learn More</Button>
         </div>
  

@@ -37,7 +37,7 @@ margin-top: -20px;
 
 .card-title {
 
-    margin-top: -17px;
-    font-weight: 500;
-    font-size: 120%;
+    margin-top: -18px;
+
+    color: var(--text-color) ;
 }
