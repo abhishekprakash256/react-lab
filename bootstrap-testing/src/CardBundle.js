@@ -29,7 +29,7 @@ function CardBundle() {
     <Container >
       <Row fluid="md p-3">
         {cardData.map((card, index) => (
-          <Col key={index} xs={12} md={4} className=" test-box">
+          <Col key={index} xs={12} md={4} className="">
             {card.card_title ? (
               <CardTemp 
                 card_title={card.card_title} 

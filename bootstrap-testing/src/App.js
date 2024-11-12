@@ -38,9 +38,7 @@ function App() {
       <More more_link={ more_link}/>
       
       
-      <div>
-        <h1></h1>
-      </div>
+
 
 
      <CardBundle></CardBundle>
