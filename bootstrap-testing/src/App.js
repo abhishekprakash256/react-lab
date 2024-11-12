@@ -37,11 +37,6 @@ function App() {
       <div>
         <h1></h1>
       </div>
-      < CardTemp card_para = { card_para } img_src={ img_src1 }  card_url = { card_url } card_title={ card_title}/>
-      <div>
-        <h1></h1>
-      </div>
-      < CardTemp card_para = { card_para } img_src={ img_src1 }  card_url = { card_url } card_title={ card_title}/>
       <CardBundle></CardBundle>
 
 
