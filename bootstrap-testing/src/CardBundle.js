@@ -27,9 +27,9 @@ function CardBundle() {
 
   return (
     <Container >
-      <Row className='mt-3 p-2'>
+      <Row className="border border-dark">
         {cardData.map((card, index) => (
-          <Col key={index} xs={12} md={4} className="">
+          <Col key={index} xs={12} md={4} className="mt-3 border border-dark">
             {card.card_title ? (
               <CardTemp 
                 card_title={card.card_title} 
