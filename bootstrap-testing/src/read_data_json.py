@@ -13,28 +13,6 @@ def read_page_data_from_json(file_path):
 data = read_page_data_from_json("mock_data.json")
 
 
-"""
-first_article_id = data[0]["article_id"]
-print("First article ID:", first_article_id)
-
-for article in data[0]['aticle_page_data']:
-    print(article['title'])
-
-"""
-
-
-"""
-for card working 
-
-for article in data:
-    print("Article Title:", article['article_card_title'])
-    print("Article Image:", article['article_card_image'])
-    print("Article Description:", article['article_card_desc'])
-    print()  # New line for better readability
-
-
-"""
-
 
 #for card data 
 
