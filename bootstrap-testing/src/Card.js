@@ -22,7 +22,7 @@ function CardTemp({ card_para , img_src , card_url, card_title } ) {
         </Card.Text>
 
         <div className='text-center mt-4'>
-        <Button className='button-custom-color' href={ card_url } >Learn More</Button>
+        <Button className='button-custom-color' href={ card_url } >Explore</Button>
         </div>
  
       </Card.Body>

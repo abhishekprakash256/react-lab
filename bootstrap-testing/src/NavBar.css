@@ -22,6 +22,10 @@
   margin-right: 5px;
 }
 
+.nav-link:hover {
+  color: var(--nav-link-color) ;
+}
+
 .footer-header-color {
   background-color: var(--footer-background-color);
   color: var(--footer-text-color);

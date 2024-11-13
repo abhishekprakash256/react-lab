@@ -20,7 +20,7 @@ function CardBundle() {
     {
       card_title: "Card Title 2",
       card_para: "System design is a multidisciplinary field that encompasses various aspects of designing the distributed systems.",
-      img_src: "federated-learning-flow.png",
+      img_src: "image_1.png",
       card_url: "https://example.com/card2",
     }
   ];
