@@ -1,33 +1,46 @@
 const fs = require('fs');
+const path = require('path');
+const { BsDatabaseDash } = require('react-icons/bs');
 
-// Function to read page data from JSON file and return a list of objects
-function readPageDataFromJson(filePath) {
-  return new Promise((resolve, reject) => {
-    // Read the JSON file
-    fs.readFile(filePath, 'utf8', (err, data) => {
-      if (err) {
-        reject(err);
-        return;
-      }
-      try {
-        // Parse the JSON data and resolve the promise with it
-        const parsedData = JSON.parse(data);
-        resolve(parsedData);
-      } catch (parseError) {
-        reject(parseError);
-      }
+// Specify the path to the JSON file
+const filePath = path.join(__dirname, 'mock_data.json');
+
+
+function myFunction(filePath)
+{ 
+    try {
+        // Read the JSON file synchronously
+        const rawData = fs.readFileSync(filePath, 'utf8');
+        
+        // Parse the JSON data
+        const data = JSON.parse(rawData);
+
+        
+        // Pretty-print the JSON data
+        return data
+    } catch (error) {
+        return console.error("Error reading or parsing data.json:", error);
+    }
+}
+
+const data = myFunction(filePath) 
+
+console.log(data)
+
+if (data) {
+    data.forEach(article => {
+        console.log("Article Image:", article.article_card_image);
+        console.log("Article Title:", article.article_card_title);
+        console.log("Article Description:", article.article_card_desc);
+        console.log("Explore Link:", article.article_card_explore_link);
+        console.log("-------------------------------------");
     });
-  });
+} else {
+    console.log("No data available to display.");
 }
 
 
+// print the values 
 
-// Example usage of the function
-readPageDataFromJson('mock_data.json')
-  .then(data => {
-    console.log(data); // Log the data to the console
-  })
-  .catch(err => {
-    console.error('Error reading or parsing the file:', err);
-  });
+
 
