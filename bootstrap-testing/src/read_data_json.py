@@ -36,10 +36,19 @@ for article in data:
 """
 
 
+#for card data 
+
+for article in data:
+    print("Article Image:", article['article_card_image'])
+    print("Article Title:", article['article_card_title'])
+    print("Article Description:", article['article_card_desc'])
+    print(article["article_card_explore_link"])
 
 
 
+print("-----------------------------------------------card data done ----------------------------------------------------------")
 
+#for the page data 
 
 for article_desc in data : 
 
