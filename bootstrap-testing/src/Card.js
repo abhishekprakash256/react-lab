@@ -8,7 +8,7 @@ function CardTemp({ card_para , img_src , card_url, card_title } ) {
   return (
     <Container >
 
-      <Card >
+      <Card  >
       <Card.Img className = "card-img-container p-3" variant="top" src= { img_src } />
       <Card.Body>
       <div className='font-color-class text-center card-title'>

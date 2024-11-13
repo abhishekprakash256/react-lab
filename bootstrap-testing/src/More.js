@@ -7,7 +7,7 @@ import './More.css';
 function More({ more_link }) {
     return (
         <Container>
-        <Row>
+        <Row className='p-2'>
           <Col className="text-center">
             <h1 className="animate bounce">
               <a className="text-decoration-none more-color" href={more_link}>
