@@ -13,8 +13,6 @@ import TestGrid from "./TestGrid"
 import CustomBody from "./CustomBody"
 
 
-
-
 const title = "Tech";
 const more_link = "#";
 const card_para = "System design a multidisciplinary field that encompasses various aspects of designing the destributed ";
