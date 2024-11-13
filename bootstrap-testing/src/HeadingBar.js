@@ -5,19 +5,19 @@ import './HeadingBar.css';
 
 
 function HeadingBar({ title }) {
-    return (
-      <Container>
-        <Row className="p-3">
-          <Col className="text-center background-color-body rounded">
-            <h1 className="bio-font font-color-class heading-responsive-font mb-2 mt-2">
-              {title}
-            </h1>
-          </Col>
-        </Row>
-      </Container>
-    );
-  }
-  
+  return (
+    <Container>
+      <Row className="rounded background-color-body m-3 p-2">
+        <Col className="text-center">
+          <h1 className="bio-font font-color-class heading-responsive-font m-0" >
+            {title}
+          </h1>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
 export default HeadingBar;
 
 
