@@ -26,6 +26,7 @@ function myFunction(filePath)
 const data = myFunction(filePath) 
 
 console.log(data)
+// for the section page for cards 
 
 if (data) {
     data.forEach(article => {
@@ -40,7 +41,37 @@ if (data) {
 }
 
 
-// print the values 
+
+// for the page data 
+
+if (data) {
+    data.forEach(articleDesc => {
+        // Loop through each article's page data
+        articleDesc.aticle_page_data.forEach(articlePageData => {
+            console.log("Title:", articlePageData.title);
+            console.log("Image Source:", articlePageData.image_src);
+            console.log("Article Paragraph:", articlePageData.article_para);
+            console.log("Markdown Data:", articlePageData.markdown_data);
+        });
+
+        // Loop through each social media link
+        articleDesc.social_media_link.forEach(socialMediaLink => {
+            console.log("GitHub Link:", socialMediaLink.github_link);
+            console.log("GitLab Link:", socialMediaLink.gitlab_link);
+            console.log("Medium Link:", socialMediaLink.medium_link);
+        });
+
+        // Print demo link
+        console.log("Demo Link:", articleDesc.demo_link);
+        console.log("-------------------------------------");
+    });
+} else {
+    console.log("No data available.");
+}
+
+// for using the page data as whole 
+
+
 
 
 
