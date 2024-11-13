@@ -28,7 +28,7 @@
 .card 
 {
     background-color: var(--background-color);  
-    max-width: 30rem; /* can be removed on need */
+    max-width: 40rem; /* can be removed on need */
 }
 
 .card-title {
