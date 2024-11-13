@@ -1,49 +1,106 @@
 :root {
-    --background-color: #ffffff;
-    --text-color: #000000;
-    --nav-link-color: #000000;
-    --footer-background-color: #e9ecef;
-    --footer-text-color: #000000;
-    --navbar-brand-color: #146C94;
-    --form-background-color: #ffffff;
-    --button-text-color: #ffffff;
-    --nav-brand-hover-color: #19A7CE;
-    --button-text-hover-color: #fefefe;
-    --input-focus-background-color: #fefefe;
-    --input-focus-text-color: #fefefe;
-    --blue-text-color: #146C94;
-    --message-bubble-color-send: #e9ecef;
-    --message-bubble-color-recv:#19A7CE;
-    --message-text-color-send: #146C94;
-    --message-text-color-recv: #ffffff;
-    --md-code-color: #000000;
-    --form-input-color: #000000;
-    --blue-text-hover: #19A7CE;
+    
+    --primary-dark-color: #000000;
+    --primary-light-color : #ffffff;
+
+    --light-gray: #e9ecef;
+
+    --primary-blue: #146C94;
+    --light-blue: #19A7CE;  
+
+
+
+    --background-color: var(--primary-light-color);
+
+    --text-color: var(--primary-dark-color);
+
+    --nav-link-color: var(--primary-dark-color);
+
+    --footer-background-color: var(--light-gray);
+
+    --footer-text-color: var(--primary-dark-color);
+
+    --navbar-brand-color: var(--primary-blue);
+
+    --form-background-color: var(--primary-light-color);
+
+    --button-text-color: var(--primary-light-color);
+
+    --nav-brand-hover-color: var(--light-blue);
+
+    --button-text-hover-color: var(--primary-light-color);
+
+    --input-focus-background-color: var(--primary-light-color);
+
+    --input-focus-text-color: var(--primary-dark-color);
+
+    --blue-text-color: var(--primary-blue);
+
+    --message-bubble-color-send: var(--light-gray);
+
+    --message-bubble-color-recv: var(--light-blue);
+
+    --message-text-color-send: var(--primary-blue);
+
+    --message-text-color-recv: var(--primary-light-color);
+
+    --md-code-color: var(--primary-dark-color);
+
+    --form-input-color: var(--primary-dark-color);
+
+    --blue-text-hover: var(--light-blue);
  
   
   
   } 
   
   [data-theme="dark"]  {
-    --background-color: #1e1e1e; /* #9b59b6 */
-    --text-color: #fefefe;
-    --nav-link-color: #ffffff;
-    --footer-background-color: #343a40;
-    --footer-text-color: #fefefe;
-    --navbar-brand-color: #19A7CE;
-    --form-background-color: #1e1e1e;
-    --button-text-color: #000000;
-    --nav-brand-hover-color: #19A7CE;
-    --button-text-hover-color: #000;
-    --input-focus-background-color: #1e1e1e;
-    --input-focus-text-color: #fefefe;
-    --blue-text-color: #19A7CE;
-    --message-bubble-color-send: #343a40;
-    --message-bubble-color-recv:#19A7CE;
-    --message-text-color-send: #19A7CE;
-    --message-text-color-recv: #000000;
-    --md-code-color: #fefefe;
-    --form-input-color: #fefefe;
+
+    --primary-light-color : #ffffff;
+    --primary-dark-color: #000000;
+    
+    --dark-gray: #343a40;
+
+    --primary-blue: #146C94;
+    --light-blue: #19A7CE;  
+
+
+    --background-color: var(--primary-dark-color);
+
+    --text-color: var(--primary-light-color);
+
+    --nav-link-color: var(--primary-light-color);
+
+    --footer-background-color: var(--dark-gray);
+
+    --footer-text-color: var(--primary-light-color);
+
+    --navbar-brand-color: var(--light-blue);
+
+    --form-background-color: var(--primary-dark-color);
+
+    --button-text-color: var(--primary-dark-color);
+
+    --nav-brand-hover-color: var(--light-blue);
+
+    --button-text-hover-color: var(--primary-dark-color);
+
+    --input-focus-background-color: var(--primary-dark-color);
+
+    --input-focus-text-color: var(--primary-light-color);
+
+    --blue-text-color: var(--light-blue);
+
+    --message-bubble-color-send: var(--dark-gary);
+
+    --message-bubble-color-recv: var(--light-blue);
+
+    --message-text-color-send: var(--light-blue);
+
+    --message-text-color-recv: var(--primary-dark-color);
+
+    --md-code-color: var(--primary-light-color);
+
+    --form-input-color: var(--primary-light-color);
   
   }
-
