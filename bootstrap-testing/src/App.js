@@ -23,28 +23,53 @@ const card_title =  "System Design";
 
 
 
+
+
+
+
+
 function App() {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("http://127.0.0.1:5000/data")
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
+
+
 
 
   return (
+
+
     <div className="App">
 
-      <NavBar/>
+<NavBar></NavBar> 
 
+    {/*
+    
     <CustomBody>
       <HeadingBar title={title}/>
       <More more_link={ more_link}/>
-      
-      
-
-
-
      <CardBundle></CardBundle>
      <More></More>
-
-
      </CustomBody>
    
+    */}
+
+<div>
+      <h1>Message: {data.message}</h1>
+      <p>Number: {data.number}</p>
+    </div>
+
+
+
 
       
 
