@@ -57,8 +57,15 @@ function App() {
     {
     
     <CustomBody>
-      <HeadingBar title={title}/>
-      <More more_link={ more_link}/>
+      <HeadingBar title={title}/>     
+     <CardBundle></CardBundle>
+     <More more_link={ more_link}/>
+     <HeadingBar title={title}/>
+     
+     <CardBundle></CardBundle>
+     
+     <More more_link={ more_link}/>
+     <HeadingBar title={title}/>
      <CardBundle></CardBundle>
      <More more_link={ more_link}/>
      </CustomBody>
