@@ -32,6 +32,8 @@ function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
+
+  /*
   useEffect(() => {
     fetch("http://127.0.0.1:5000/data")
       .then((response) => response.json())
@@ -41,7 +43,7 @@ function App() {
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
-
+ */
 
 
 
@@ -52,7 +54,7 @@ function App() {
 
 <NavBar></NavBar> 
 
-    {/*
+    {
     
     <CustomBody>
       <HeadingBar title={title}/>
@@ -61,15 +63,14 @@ function App() {
      <More></More>
      </CustomBody>
    
-    */}
+    }
 
-<div>
+    {/*
+
       <h1>Message: {data.message}</h1>
       <p>Number: {data.number}</p>
     </div>
-
-
-
+    */}
 
       
 
