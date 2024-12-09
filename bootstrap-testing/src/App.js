@@ -14,7 +14,7 @@ import CustomBody from "./CustomBody"
 
 
 const title = "Tech";
-const more_link = "#";
+const more_link = "www.google.com";
 const card_para = "System design a multidisciplinary field that encompasses various aspects of designing the destributed ";
 const img_src = "cards.jpg"; // public folder has all the images can go 
 const img_src1 = "federated-learning-flow.png"; 
@@ -60,7 +60,7 @@ function App() {
       <HeadingBar title={title}/>
       <More more_link={ more_link}/>
      <CardBundle></CardBundle>
-     <More></More>
+     <More more_link={ more_link}/>
      </CustomBody>
    
     }
