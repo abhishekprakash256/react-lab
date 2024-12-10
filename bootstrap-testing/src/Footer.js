@@ -7,6 +7,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
+
+
+
+
 function Footer() {
 
     return (
@@ -78,7 +82,7 @@ function Footer() {
 
       <Row id = "contact "className=" text-center p-2">
         <Col className="text-center">
-        <Button className="button-custom-color">Submit</Button>
+        <Button type = "submit" className="button-custom-color">Submit</Button>
 
         </Col>
       </Row>
