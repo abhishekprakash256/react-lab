@@ -11,6 +11,7 @@ import CardBundle from './CardBundle'
 import GroupExample from './GroupExample';
 import TestGrid from "./TestGrid"
 import CustomBody from "./CustomBody"
+import Footer from './Footer';
 
 
 const title = "Tech";
@@ -54,7 +55,7 @@ function App() {
 
 <NavBar></NavBar> 
 
-    {
+    
     
     <CustomBody>
       <HeadingBar title={title}/>     
@@ -68,9 +69,13 @@ function App() {
      <HeadingBar title={title}/>
      <CardBundle></CardBundle>
      <More more_link={ more_link}/>
+
      </CustomBody>
+
+<Footer></Footer>
+
    
-    }
+    
 
     {/*
 
