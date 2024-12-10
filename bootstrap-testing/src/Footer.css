@@ -1,0 +1,8 @@
+.copyright
+{   text-decoration: none;
+    color: var(--text-color);}
+
+.copyright:hover{
+  text-decoration: none;
+  color:var(--nav-brand-hover-color);
+}

@@ -83,6 +83,18 @@ function Footer() {
       </Row>
 
       
+      <Row id = "contact "className=" text-center p-2">
+        <Col className="text-center">
+
+        <div className="mb-2"> 
+      © 2025 Copyright:
+      <a className= "copyright" href="https://meabhi.me/"> meabhi.me</a>
+    </div>
+
+        </Col>
+      </Row>
+
+      
     </Container>
     
 
