@@ -24,9 +24,9 @@ function Footer() {
 
 
       <Row id = "contact "className=" text-center mt-2 p-2">
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
         </Col>
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
           <Form className="d-flex">
             <Form.Control
               type="Name"
@@ -36,15 +36,15 @@ function Footer() {
             />
           </Form>
         </Col>
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
         </Col>
       </Row>
 
 
       <Row id = "contact "className=" text-center mt-2 p-2">
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4} >
         </Col>
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
           <Form className="d-flex">
             <Form.Control
               type="Email"
@@ -54,30 +54,31 @@ function Footer() {
             />
           </Form>
         </Col>
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
         </Col>
       </Row>
 
       <Row id = "contact "className=" text-center mt-2 p-2">
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
         </Col>
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
           <Form className="d-flex">
             <Form.Control
-              type="Message"
+              as="textarea"
               placeholder="Message"
-              className="me-2 custom-border form-control custom-placeholder"
+              className="me-2 custom-border form-control custom-placeholder message-inp"
               aria-label="Search"
             />
           </Form>
+
         </Col>
-        <Col className="text-center">
+        <Col className="text-center" xs={12} sm ={12} md={4}>
         </Col>
       </Row>
 
       <Row id = "contact "className=" text-center p-2">
         <Col className="text-center">
-        <Button className=" button-custom-color ">Submit</Button>
+        <Button className="button-custom-color">Submit</Button>
 
         </Col>
       </Row>

@@ -43,17 +43,27 @@
   }
 
   .button-custom-color {
-    background-color: #19A7CE;
-    border-color: #19A7CE;
+    background-color: var(--light-blue);
+    border-color:var(--light-blue);
     color: var(--button-text-color) !important;
+    transition: none; /* Prevent animation during state changes */
 }
 
 .button-custom-color:hover {
-    background-color: #0D87B0;
-    border-color: #0D87B0;
+    background-color: var(--button-hover);
+    border-color: var(--button-hover);
     color: var(--button-text-hover-color) !important ; /* Font color on hover */
 }
 
+/* Prevent color change on click */
+.button-custom-color:active,
+.button-custom-color:focus {
+    background-color: var(--button-hover) !important; /* Same as hover */
+    border-color:var(--button-hover) !important;
+    color: var(--button-text-hover-color) !important;
+    /* Remove focus/active shadow */
+    /* Remove focus outline */
+}
 
 .bold-links {
   font-weight: 450;

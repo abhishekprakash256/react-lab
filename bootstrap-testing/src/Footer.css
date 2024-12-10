@@ -6,3 +6,16 @@
   text-decoration: none;
   color:var(--nav-brand-hover-color);
 }
+
+.message-inp {
+    height: 200px;
+    text-align: left; /* Align text to the left */
+    vertical-align: top; /* Align placeholder to the top */
+    padding: 10px; /* Add padding to give space around the text */
+    resize: none; /* Optional: Prevent resizing if not needed */
+}
+
+.message-inp::placeholder {
+    text-align: left; /* Align placeholder text to the left */
+    vertical-align: top; /* Align placeholder text to the top */
+}
