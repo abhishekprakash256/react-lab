@@ -98,7 +98,7 @@ function Footer() {
 
         <Row id="contact" className="text-center p-2">
           <Col className="text-center">
-            <div className="mb-3">
+            <div className="mb-3 mt-3">
               © 2025 Copyright:
               <a className="copyright" href="https://meabhi.me/">
                 {' '}

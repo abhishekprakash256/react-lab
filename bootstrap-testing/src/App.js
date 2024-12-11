@@ -12,6 +12,7 @@ import GroupExample from './GroupExample';
 import TestGrid from "./TestGrid"
 import CustomBody from "./CustomBody"
 import Footer from './Footer';
+import MarkDown from './MarkDown';
 
 
 const title = "Tech";
@@ -21,6 +22,7 @@ const img_src = "cards.jpg"; // public folder has all the images can go
 const img_src1 = "federated-learning-flow.png"; 
 const card_url = "https://www.google.com";
 const card_title =  "System Design";
+const mark_down_data = "The classic example that we can understand dynamic programming with is the Fibonacci series, which can be solved both recursively and using dynamic programming.\n ### Recursive Approach \n ```python \ndef fibbo(nums):\n      if nums <= 1:\n        return 1\n      return fibbo(n-1) + fibbo(n-2)\n ```\n\n### Dynamic Programming with Memoization\n ```python\ndef fibonacci(n, memo={}):\n       if n in memo:\n         return memo[n]\n       if n <= 1:\n         return n\n       else:\n          memo[n] = fibonacci(n-1, memo) + fibonacci(n-2, memo)\n       return memo[n]\n ```\n\n### Dynamic Programming with Tabulation\n ```python\ndef fibonacci(n):\n        if n <= 1:\n            return n\n   \n        fib_table = [0] * (n + 1)\n        fib_table[1] = 1\n\n        for i in range(2, n + 1):\n           fib_table[i] = fib_table[i - 1] + fib_table[i - 2]\n\n        return fib_table[n]\n"
 
 
 
@@ -68,6 +70,9 @@ function App() {
      <More more_link={ more_link}/>
      <HeadingBar title={title}/>
      <CardBundle></CardBundle>
+
+     <MarkDown mark_down_data={ mark_down_data }></MarkDown>
+     
      <More more_link={ more_link}/>
 
      </CustomBody>
