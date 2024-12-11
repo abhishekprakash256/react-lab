@@ -10,7 +10,7 @@ function MarkDown({ mark_down_data }) {
     <Container>
       <Row className="rounded background-color-body mt-3 p-2">
         <Col className="">
-        <ReactMarkdown className="mb-0 font-color-class bio-desc">
+        <ReactMarkdown className="mb-0 font-color-class bio-desc markdown-body">
                 { mark_down_data }
         </ReactMarkdown>
         </Col>
