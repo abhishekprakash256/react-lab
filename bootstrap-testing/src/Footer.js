@@ -26,15 +26,15 @@ function Footer() {
   return (
     <Container fluid className="footer-header-color">
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
-        <Row id="contact" className="text-center p-2">
+        <Row id="contact" className=" text-center">
           <Col className="text-center">
-            <h1 className="bio-font font-color-class heading-responsive-font">
+            <h1 className="bio-font font-color-class heading-responsive-font p-2 mt-3">
               Contact Me
             </h1>
           </Col>
         </Row>
 
-        <Row id="contact" className="text-center mt-2 p-2">
+        <Row id="contact" className="text-center p-2">
           <Col className="text-center" xs={12} sm={12} md={4}></Col>
           <Col className="text-center" xs={12} sm={12} md={4}>
             <Form.Group controlId="validationName">
@@ -52,7 +52,7 @@ function Footer() {
           <Col className="text-center" xs={12} sm={12} md={4}></Col>
         </Row>
 
-        <Row id="contact" className="text-center mt-2 p-2">
+        <Row id="contact" className="text-center p-2">
           <Col className="text-center" xs={12} sm={12} md={4}></Col>
           <Col className="text-center" xs={12} sm={12} md={4}>
             <Form.Group controlId="validationEmail">
@@ -70,7 +70,7 @@ function Footer() {
           <Col className="text-center" xs={12} sm={12} md={4}></Col>
         </Row>
 
-        <Row id="contact" className="text-center mt-2 p-2">
+        <Row id="contact" className="text-center p-2">
           <Col className="text-center" xs={12} sm={12} md={4}></Col>
           <Col className="text-center" xs={12} sm={12} md={4}>
             <Form.Group controlId="validationMessage">
@@ -98,7 +98,7 @@ function Footer() {
 
         <Row id="contact" className="text-center p-2">
           <Col className="text-center">
-            <div className="mb-2">
+            <div className="mb-3">
               © 2025 Copyright:
               <a className="copyright" href="https://meabhi.me/">
                 {' '}
