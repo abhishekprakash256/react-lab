@@ -7,16 +7,16 @@ import MainSquare from './MainSquare';
 import SmallSquare from './SmallSquare';
 import Button from 'react-bootstrap/Button';
 import Counter from './Counter';
-
-const value = 5;
+import  { useState } from 'react';
 
 
 function MainBox() {
 
-  const handleClick = () => {
-    alert(`You clicked on Button`);
-  };
+  const [value, setValue] = useState(0); // Initialize state
 
+  const handleClick = () => {
+    setValue(value + 1); // Update state
+  };
   return (
 
     
