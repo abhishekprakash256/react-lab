@@ -1,0 +1,39 @@
+.box1 {
+    background-color: red;
+    width: auto ;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.box2 {
+    background-color: green;
+    width: auto ;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 25px;
+}
+.box3 {
+    background-color: blue;
+    width: auto ;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 25px;
+}
+.box4 {
+    background-color: yellow;
+    width: auto ;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+/* Adds padding on all sides */
+.box-padding {
+    padding: 15px;
+  }
+  

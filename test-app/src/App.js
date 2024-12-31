@@ -1,12 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import MainBox from './MainBox';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hey World !</h1>
 
+    <MainBox>
+
+
+  
+
+    </MainBox>
+
+ 
+    
+    
     </div>
+
   );
 }
 
