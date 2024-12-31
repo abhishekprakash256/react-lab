@@ -16,30 +16,38 @@ function MainBox() {
 
   const handleClick = () => {
     setValue(value + 1); // Update state
+  
   };
+
+
+  const [color,setColor] = useState('red');
+
+  // Function to handle color change from SmallSquare
+  const handleColorChange = (newColor) => {
+    setColor(newColor); // Update color state
+  };
+
+
+
   return (
 
     
     <Container>
       <Row className=''>
         <Col className={styles.box}>
-        
-        <MainSquare></MainSquare>
-        
+       
+        <MainSquare currentColor = {color}></MainSquare>
+      
         </Col>
-
 
         <Col className={styles.box}>
         
-        
-        <SmallSquare>
+        <SmallSquare setColorChange= {handleColorChange} >
             
         </SmallSquare>
 
+        <Button onClick={handleClick} variant="primary">Count</Button>
 
-        <Button onClick={() => handleClick()} variant="primary">Count</Button>
-
-        
         </Col>
         
       </Row>
@@ -50,13 +58,13 @@ function MainBox() {
 
         <Counter val = {value} ></Counter>
 
-        
         </Col>
+
       </Row>
 
     </Container>
   );
 }
   
-  export default MainBox;
+export default MainBox;
   

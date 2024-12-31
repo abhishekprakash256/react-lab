@@ -1,37 +1,39 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from './SmallSquare.module.css'; // Assuming you are using CSS Modules
+import  { useState } from 'react';
 
 
 
-function SmallSquare() {
-  const handleClick = (boxNumber) => {
-    alert(`You clicked on Box ${boxNumber}!`);
+function SmallSquare( {setColorChange }) {
+
+
+  const handleClick = (color) => {
+    setColorChange(color); // Invoke the callback with the selected color
   };
 
 
-  
   return (
     <Container>
       <Row className={styles['box-padding']}>
         <Col
           className={`${styles.box1} ${styles['box-padding']}`}
-          onClick={() => handleClick(1)} // Pass unique identifier
+          onClick={() => handleClick('red')} // Pass unique identifier
           role="button"
         ></Col>
         <Col
           className={`${styles.box2} ${styles['box-padding']}`}
-          onClick={() => handleClick(2)} // Pass unique identifier
+          onClick={() => handleClick('green')} // Pass unique identifier
           role="button"
         ></Col>
         <Col
           className={`${styles.box3} ${styles['box-padding']}`}
-          onClick={() => handleClick(3)} // Pass unique identifier
+          onClick={() => handleClick('blue')} // Pass unique identifier
           role="button"
         ></Col>
         <Col
           className={`${styles.box4} ${styles['box-padding']}`}
-          onClick={() => handleClick(4)} // Pass unique identifier
+          onClick={() => handleClick('yellow')} // Pass unique identifier
           role="button"
         ></Col>
       </Row>
@@ -39,5 +41,5 @@ function SmallSquare() {
   );
 }
 
-export default SmallSquare;
 
+export default SmallSquare;
