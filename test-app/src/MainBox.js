@@ -8,9 +8,12 @@ import SmallSquare from './SmallSquare';
 import Button from 'react-bootstrap/Button';
 import Counter from './Counter';
 
+const val = 12;
 
 
 function MainBox() {
+  
+
 
   return (
     <Container>
@@ -33,7 +36,6 @@ function MainBox() {
         <Button variant="primary">Count</Button>
 
         
-        
         </Col>
         
       </Row>
@@ -42,7 +44,7 @@ function MainBox() {
 
         <Col className={styles.box}>
 
-        <Counter></Counter>
+        <Counter val = {val} ></Counter>
 
         
         </Col>
