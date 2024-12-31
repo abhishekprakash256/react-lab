@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import styles from './MainBox.module.css';
 import MainSquare from './MainSquare';
 import SmallSquare from './SmallSquare';
+import Button from 'react-bootstrap/Button';
+
 
 
 
@@ -26,10 +28,21 @@ function MainBox() {
         <SmallSquare>
             
         </SmallSquare>
+
+
+        <Button variant="primary">Count</Button>
+
         
         
         </Col>
         
+      </Row>
+
+      <Row >
+
+        <Col>
+        
+        </Col>
       </Row>
 
     </Container>
