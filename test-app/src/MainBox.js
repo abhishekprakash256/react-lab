@@ -8,12 +8,18 @@ import SmallSquare from './SmallSquare';
 import Button from 'react-bootstrap/Button';
 import Counter from './Counter';
 
-const value = 12;
+const value = 5;
 
 
 function MainBox() {
 
+  const handleClick = () => {
+    alert(`You clicked on Button`);
+  };
+
   return (
+
+    
     <Container>
       <Row className=''>
         <Col className={styles.box}>
@@ -31,7 +37,7 @@ function MainBox() {
         </SmallSquare>
 
 
-        <Button variant="primary">Count</Button>
+        <Button onClick={() => handleClick()} variant="primary">Count</Button>
 
         
         </Col>

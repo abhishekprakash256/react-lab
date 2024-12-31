@@ -1,10 +1,13 @@
 .box {
     background-color: azure;
-    border-radius: 40px;
-    width: auto;
-    padding: 20px; /* Removes internal space */
-    margin: 0; /* Removes external space */
-    display: inline-block; /* Ensures the box fits tightly around the content */
-    text-align: center; /* Centers the text inside the box */
+    border-radius: 50%; /* Makes the box fully round */
+    width: 100px; /* Set equal width and height */
+    height: 100px; /* Set equal width and height */
+    padding: 0; /* Remove extra internal space */
+    margin: 0 auto; /* Center horizontally if needed */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center;
     margin-bottom: 20px;
-}
+  }
