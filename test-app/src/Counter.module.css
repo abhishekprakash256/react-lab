@@ -1,0 +1,10 @@
+.box {
+    background-color: azure;
+    border-radius: 40px;
+    width: auto;
+    padding: 15px; /* Removes internal space */
+    margin: 0; /* Removes external space */
+    display: inline-block; /* Ensures the box fits tightly around the content */
+    text-align: center; /* Centers the text inside the box */
+    margin-bottom: 20px;
+}

@@ -6,7 +6,7 @@ import styles from './MainBox.module.css';
 import MainSquare from './MainSquare';
 import SmallSquare from './SmallSquare';
 import Button from 'react-bootstrap/Button';
-
+import Counter from './Counter';
 
 
 
@@ -40,7 +40,10 @@ function MainBox() {
 
       <Row >
 
-        <Col>
+        <Col className={styles.box}>
+
+        <Counter></Counter>
+
         
         </Col>
       </Row>
