@@ -8,14 +8,8 @@ function App() {
     <div className="App">
 
     <MainBox>
-    
-
-  
 
     </MainBox>
-
- 
-    
     
     </div>
 
