@@ -1,6 +1,3 @@
-Here’s a sample README for a repository dedicated to learning React and testing for educational purposes and self-growth:
-
----
 
 # React Learning & Testing Repository
 
